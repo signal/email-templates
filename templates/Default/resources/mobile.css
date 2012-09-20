@@ -1,0 +1,149 @@
+/*
+
+Title: 		Landing Page Styles
+Media:		Mobile - 320 - 480
+
+
+*/
+
+body {
+	width: 100%; 
+	-webkit-text-size-adjust: none;
+	padding-top: 20px;
+	}
+
+.bounds { 
+	width: auto; 
+	margin: 0; 
+	padding: 0;
+	}
+
+.col1 {
+	background: #fff;
+	padding: 30px 20px 12px;
+	margin: 0 20px 10px;
+	}
+
+.title {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	}
+
+h1 {
+	font-size: 1.5em; /* 24px */
+	}
+	
+h2 {
+	font-size: 1.125em; /* 18px */
+	line-height: 1.5em; /* 28px */
+	}
+	
+.bounds p {
+	font-size: 1em; /* 16px */
+	line-height: 1.5em; /* 24px */
+}
+
+form {
+    margin-bottom: 24px;
+    }
+
+.data_collection {
+    width: auto;
+    margin-left: 0;
+    }
+    
+form div.clearfix {
+    margin-bottom: 12px;
+    }
+
+form div.label {
+    text-align: left;
+	width: auto;
+    float: none;
+    }
+    
+form div.input {
+    float: none;
+    width: auto;
+    }
+
+form label {
+	margin-right: 0;
+	color: #333;
+	font-size: 1em;
+}
+
+form label.radio {
+        width: auto;
+        display: inline;
+}
+
+form .req {
+    margin-left: 0;
+    font-size: .815em;
+    margin-bottom: 12px;
+    }
+
+form input.submit {
+	margin-left: 0;
+}
+
+form input[type="text"] {
+    width: 220px;
+    }
+
+div.captcha {
+	padding-bottom: 24px;
+}
+
+div#recaptcha_image, div#recaptcha_image img {
+	width: 240px !important;
+	height: auto;
+}
+
+input#recaptcha_response_field {
+	margin-bottom: 18px;
+}
+
+input.submit {
+	margin-left: 0;
+}
+
+div#recaptcha_widget a {
+	font-size: .75em;
+    }
+
+div#recaptcha_widget a, #recaptcha_image {
+	margin-left: 12px;
+    }
+
+div.captcha {
+	padding-bottom: 24px;
+}
+
+span.recaptcha_only_if_image, span.recaptcha_only_if_audio {
+	display: block;
+	width: auto;
+	text-align: left;
+	margin-left: 24px;
+	float: none;
+	font-size: 1em;
+	color: #333;
+}
+
+input#recaptcha_response_field {
+	margin-bottom: 18px;
+}
+
+input.submit {
+	margin-left: 0;
+}
+
+#terms_checkbox {
+    font-size: .875em; 
+    margin-left: 12px;
+    color: #333;
+    position: relative;
+    margin-top: -24px;
+    }
+

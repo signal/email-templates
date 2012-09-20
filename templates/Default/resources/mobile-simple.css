@@ -1,0 +1,71 @@
+/*
+
+Title: 		Landing Page Styles
+Media:		Mobile - 320 - 480
+
+
+*/
+
+body {
+	width: 100%; 
+	-webkit-text-size-adjust: none;
+	padding-top: 20px;
+	background: #fff;
+	}
+
+.bounds { 
+	width: auto; 
+	margin: 0; 
+	padding: 0;
+	}
+
+.col1 {
+	padding: 15px;
+	margin: 0 10px 10px;
+	border: none;
+	-webkit-border-radius: none;
+	-moz-border-radius: none;
+	}
+
+.title {
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+	}
+
+h1 {
+	font-size: 1.25em; /* 20px */
+	}
+	
+h2 {
+	font-size: 1em; /* 16px */
+	line-height: 1.5em; /* 20px */
+	}
+	
+.bounds p {
+	font-size: .875em; /* 14px */
+	line-height: 1.5em; /* 21px */
+}
+
+form label {
+	display:  block;
+	width: auto;
+	text-align: left;
+	margin-right: 0;
+}
+
+div.captcha {
+	padding-bottom: 24px;
+}
+
+div#recaptcha_image, div#recaptcha_image img {
+	width: 240px !important;
+	height: auto;
+}
+
+input#recaptcha_response_field {
+	margin-bottom: 18px;
+}
+
+input.submit {
+	margin-left: 0;
+}
