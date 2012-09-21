@@ -1,0 +1,12 @@
+
+# Standard OS noise
+*.swp
+*.swo
+*.swn
+.DS_Store
+tags
+*.orig
+.bundle
+
+.rvmrc
+.powrc
