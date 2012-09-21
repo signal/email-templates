@@ -15,3 +15,6 @@ Templates follow a standard directory structure.
         ...
       styles.yml          # Custom WYSIWYG styles available when using this template
 
+Note that only the template.html file is required for a template, the rest of the files take advantage of Signal templating capabilities.
+
+To read more about building email templates in Signal, check out http://support.signalhq.com/kb_article/build-email-templates/.
