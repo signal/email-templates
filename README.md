@@ -5,9 +5,9 @@ Signal includes email templates ready for use. This repo has all the source file
 
 Templates follow a standard directory structure:
 
-		root/
-		  template.html       # The HTML document this template defines
-		  resources/          # A directory containing all assets needed for this template
+    root/
+      template.html       # The HTML document this template defines
+      resources/          # A directory containing all assets needed for this template
 
 Only the template.html file is required for a new template.
 
