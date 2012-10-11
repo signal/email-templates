@@ -8,8 +8,9 @@
 <style type="text/css">
   
  body {
+   background-image: url("http://app.signalhq.com/web_themes/web_form_themes/4033/563/resources/back.jpg");
+   background-repeat: repeat-y no-repeat;
    background-color: #eaebec;
-   background-image: url("http://app.signalhq.com/web_themes/web_form_themes/4033/555/resources/back.jpg");
    padding: 0;
    margin: 0;
    } 
@@ -59,20 +60,24 @@ img[class=m-hide] {
 display: none;
 }
 
+table td {
+	border-collapse: collapse;
+}
+
 }
 
 </style>
 </head>
-<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="background-color:#eaebec;">
-	<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="#eaebec">
+	<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" background="http://app.signalhq.com/web_themes/web_form_themes/4033/563/resources/back.jpg">
 	<tbody>
 		<tr>
-			<td style="width: 100%;" style="background-color: #eaebec; background-image: url(http://app.signalhq.com/web_themes/web_form_themes/4033/555/resources/back.jpg); background-repeat: repeat;" valign="top">
+			<td style="width: 100%;" valign="top">
 			
 				<!-- BEGIN HEADER -->
 				<table cellpadding="0" cellspacing="0" border="0" align="center" width="600" style="border-bottom: 2px solid #000000;" class="full">
 					<!-- BEGIN PADDING -->
-					<tr><td height="20"></td></tr>
+					<tr><td height="20" colspan="2" width="100%"></td></tr>
 					<!-- END PADDING -->
 					<tr>
 						<td valign="top">
@@ -85,7 +90,7 @@ display: none;
 						</td>
 					</tr>
 					<!-- BEGIN PADDING -->
-					<tr><td height="20"></td></tr>
+					<tr><td height="20" colspan="2" width="100%"></td></tr>
 					<!-- END PADDING -->
 				</table>
 				<!-- END HEADER -->
@@ -94,12 +99,16 @@ display: none;
 				<table cellpadding="0" cellspacing="0" border="0" align="center" width="600" style="border-bottom: 2px solid #000000;" class="full">
 					<tr>
 						<td width="100%" valign="middle">
-							<table cellpadding="0" cellspacing="0" border="0" width="100%">
+							<table cellpadding="0" cellspacing="0" border="0" width="100%" style="text-align: center;">
 								<!-- BEGIN PADDING -->
 								<tr><td height="10">&nbsp;</td></tr>
 								<!-- END PADDING -->
 								<tr>
-									<td><div data-signal-editable="email_name" data-signal-toolbar="type" style="text-align: center;"><span style="font-family: 'Times New Roman', Georgia, Times, serif; font-size: 30px; font-weight: normal; margin: 0; padding: 0; color: #000; vertical-align: middle;">Latest News</span></div></td>
+									<td>
+									<div data-signal-editable="email_name" data-signal-toolbar="type" style="text-align: center;">
+									<span style="font-family: 'Times New Roman', Georgia, Times, serif; font-size: 30px; font-weight: normal; margin: 0; padding: 0; color: #000; vertical-align: middle; text-align: center;">Latest News</span>
+									</div>
+									</td>
 								</tr>
 								<!-- BEGIN PADDING -->
 								<tr><td height="10">&nbsp;</td></tr>
@@ -123,13 +132,13 @@ display: none;
 		      							<!-- END MAINCOL -->		      							
 		      							
 		      							<!-- BEGIN SOCIAL -->		      							
-										<table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-bottom: 2px solid #000000;text-align: center;">
+										<table width="600" cellpadding="0" cellspacing="0" border="0" style="border-bottom: 2px solid #000000;text-align: center;">
 											<!-- BEGIN PADDING -->
-											<tr><td height="20"></td></tr>
+											<tr><td height="20" width="600"></td></tr>
 											<!-- END PADDING -->
 											<tr>
-												<td>
-													<div data-signal-editable="social_accounts" data-signal-toolbar="type" style="font-family: arial, helvetica, sans-serif; font-weight: bold; font-size: 13px; line-height: 19px; color: #000;vertical-align: middle;">
+												<td width="600">
+													<div data-signal-editable="social_accounts" data-signal-toolbar="type" style="font-family: arial, helvetica, sans-serif; font-weight: bold; font-size: 13px; line-height: 19px; color: #000;vertical-align: middle; text-align: center;">
 													<span style="font-family: arial, helvetica, sans-serif; font-weight: bold; font-size: 13px; line-height: 19px; color: #000;vertical-align: middle;">FIND US ONLINE:</span>&nbsp;
 													<img src="resources/ico-fb.png" width="33" height="33" alt="Facebook" title="Facebook" style="vertical-align:middle;" />&nbsp;
 													<img src="resources/ico-twitter.png" width="33" height="33" alt="Twitter" title="Twitter" style="vertical-align:middle;" />&nbsp;
@@ -139,7 +148,7 @@ display: none;
 												</td>
 											</tr>
 											<!-- BEGIN PADDING -->
-											<tr><td height="20"></td></tr>
+											<tr><td height="20" width="600"></td></tr>
 											<!-- END PADDING -->
 										</table>
 										<!-- END SOCIAL -->
@@ -153,12 +162,12 @@ display: none;
 				<!-- END CONTENT -->
 				
 				<!-- BEGIN FOOTER -->
-				<table style="width: 600px; margin: 0 auto;" border="0" cellspacing="0" cellpadding="0" align="center">
+				<table width="600" style="margin: 0 auto;" border="0" cellspacing="0" cellpadding="0" align="center">
 				  <!-- BEGIN PADDING -->
-				  <tr><td height="10"></td></tr>
+				  <tr><td height="10" colspan="2" width="600"></td></tr>
 				  <!-- END PADDING -->
 				  <tr>
-				    <td>
+				    <td width="300">
 				        <p style="font-family: arial,helvetica,sans-serif;color: #000; font-size: 11px; line-height: 17px;">
 				        This email was sent by:<br/>
 						{{account.name}}<br/>
@@ -166,7 +175,7 @@ display: none;
 						{{account.city}}, {{account.state_code}} {{account.postal_code}}
 						</p>
 					</td>	
-					<td style="text-align: right;vertical-align: top;">		  
+					<td width="300" style="text-align: right;vertical-align: top;">		  
 				        <p class="preference_links" style="font-family: arial,helvetica,sans-serif;font-size: 11px;line-height: 17px;">
 				        <a style="color:#1f5eb2; font-family: arial, helvetica, sans-serif; text-decoration: underline;" href="{{update_preferences_link}}">Update Preferences</a><br />
 				        <a style="color:#1f5eb2; font-family: arial, helvetica, sans-serif; text-decoration: underline;" href="{{unsubscribe_link}}">Unsubscribe</a>
