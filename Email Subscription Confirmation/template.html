@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Email Subscription Confirmation</title>
+<style type="text/css">
+  
+ body {
+   background: #f6f6f6;
+   padding: 0;
+   margin: 0;
+   } 
+  
+a {
+  color: #008ae1 !important;
+  text-decoration: none !important;
+  }
+  
+a:hover {
+  color: #333333 !important;
+  text-decoration: underline !important;
+  }
+
+@media only screen and (max-device-width: 480px) { 
+
+body {
+      -webkit-text-size-adjust: none;
+      margin: 0 20px;
+    }
+
+table, td[class="content"], 
+td[class="img"] {
+      width: auto !important;
+    }
+    
+    table.full {
+      width: 100% !important;
+      }
+
+td[class="img"] img {
+  max-width: 100px;
+  border: 0 !important;
+}
+  
+td.img img.full {
+  max-width: 100%;
+  }
+
+td[class="content"] {
+      font-size: 16px !important;
+      line-height: 24px !important;
+    }
+    
+p.e-footer, 
+p.view-email {
+font-size: 12px !important;
+}
+
+p[class=e-footer] a {
+color: #666;
+}
+
+td[class=m-hide], 
+div[class=m-hide], 
+img[class=m-hide] {
+display: none;
+}
+
+}
+
+
+
+</style>
+</head>
+<body style="background-color:#f6f6f6;" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+  <table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+    <tbody>
+      <tr>
+      <td style="width: 100%;">
+        <table cellpadding="0" cellspacing="0" border="0" align="center" width="600" style="border-bottom: 1px solid #e6e6e6;" class="full">
+          <tr>
+            <td height="42" valign="middle">
+              <p class="view-email" style="color: #aaaaaa; font-size: 11px; text-align:center; margin: 0; padding: 0;">
+                <a style="color:#333333; font-family: arial, helvetica, sans-serif; text-decoration: underline;" href="{{view_in_browser_link}}">View email in browser</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table style="width: 600px; margin: 0 auto; border-bottom: 1px solid #e6e6e6; border-left: 1px solid #e6e6e6; border-right: 1px solid #e6e6e6; background: #ffffff;" bgcolor="#FFFFFF" border="0" cellspacing="0" cellpadding="0" align="center" class="full">
+          <tr>
+            <td width="100%" valign="middle" height="94">
+              <table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr>
+			<td height="12">&nbsp;</td>
+		</tr>
+                <tr>
+                  <td><div data-signal-editable="email_name" data-signal-toolbar="type"><span style="font-family: arial, helvetica, sans-serif; font-size: 20px; font-weight: bold; margin: 0 auto; padding: 0; color: #222222; vertical-align: middle; display: block; text-align: center;">{{account.name}}</span></div></td>
+                </tr>
+		<tr>
+			<td height="12">&nbsp;</td>
+		</tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <table style="width: 600px; margin: 0 auto; font-family: arial,helvetica,sans-serif; font-size: 13px; color: #333; line-height: 19px; background: #ffffff; border-left: 1px solid #e6e6e6; border-right: 1px solid #e6e6e6; border-bottom: 1px solid #e6e6e6;" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF" class="full">
+          <tr>
+            <td class="maincol" valign="top" width="100%">
+              <table cellpadding="0" cellspacing="0" border="0" style="padding: 0;" width="100%">
+            		<tr>
+            		<td height="24" width="100%">&nbsp;</td>
+            		</tr>
+                <tr>
+                  <td>
+
+
+<!-- confirmation message -->
+			
+<table cellpadding="0" cellspacing="0" border="0" style="font-family: arial,helvetica,sans-serif; font-size: 13px; color: #333; line-height: 19px;" class="content" width="100%">
+<tr>
+
+<td width="5%">&nbsp;</td>
+ <td width="90%" valign="top" class="content">
+<div data-signal-editable="content">
+<p style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #333; line-height: 21px; margin: 0; padding: 0;">Hi there!</p><br>
+<p style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #333; line-height: 21px; margin: 0; padding: 0;">We've received a request to add {{email_address}} to the {{list.name}} list.</p><br><br>
+<p style="font-family: arial, helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #333; line-height: 19px; margin: 0; padding: 0;"><a href="{{confirmation_link}}" style="padding: 10px 16px; border-radius: 6px; background: #f6f6f6; color: #ffffff !important; background: #008ae1;">Click here to confirm your subscription</a></p><br><br>
+<p style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #333; line-height: 21px; margin: 0; padding: 0;">You can unsubscribe from this list anytime by <a href="{{unsubscribe_link}}" style="color: #008ae1;">clicking here</a>.</p><br>
+<p style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #333; line-height: 21px; margin: 0; padding: 0;">&mdash; {{account.name}}</p>
+      </div>
+    </td>
+<td width="5%">&nbsp;</td>
+
+   </tr>
+<tr>
+<td colspan="3" height="30">&nbsp;</td>
+</tr>
+</table>
+
+<!-- /end confirmation message -->
+
+
+
+                    
+
+            </td>
+                </tr>
+              </table>
+                 
+
+
+            </td>
+          </tr>
+      </table>
+
+      <table style="width: 600px; margin: 0pt auto; font-family: arial,helvetica,sans-serif;" border="0" cellspacing="0" cellpadding="0" align="center">
+          <tr>
+            <td>
+              <div id="footer">
+                <br/><br/>
+                <p class="e-footer" style="color: #666666; font-size: 11px;">
+                This email was sent by:<br/>
+    		{{account.name}}<br/>
+      		{{account.street_address1}}<br/>
+      		{{account.city}}, {{account.state_code}} {{account.postal_code}}
+          
+          
+                <span class="preference_links">
+                <br/><br/>
+                <a style="color:#333333; font-family: arial, helvetica, sans-serif; text-decoration: underline;" href="{{unsubscribe_link}}">Unsubscribe</a>
+                </span>
+                </p>
+              </div>
+            </td>
+          </tr>
+      </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
