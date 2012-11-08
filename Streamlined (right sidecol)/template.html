@@ -12,22 +12,26 @@ a {color: #ea9500 !important; text-decoration: none !important;}
 a:hover {color: #45c9ea !important; text-decoration: underline !important;}
 
 @media only screen and (max-device-width: 480px) { 
-	body {-webkit-text-size-adjust: none; margin: 0 20px;}
-	
-	table[class="container"] {width:320px !important; }
-		
-	table[class="maincontent"], table[class="sidecontent"] {width: 100% !important;}
-	
-	td[class="img"] {width: auto !important;}
-	
-	td[class="img"] img {max-width: 250px; border: 0 !important;}
-	
-	td[class=m-hide], div[class=m-hide], img[class=m-hide] {display: none;}
+	body {-webkit-text-size-adjust: none; margin: 0 20px;}	
+	table[class="container"] {width:320px !important; }		
+	table[class="maincontent"], 
+	table[class="sidecontent"], 
+	td[class="split"] {width: 100% !important;}	
+	table, td[class="content"], 
+	td[class="img"] {width: auto !important;}    
+	table.full {width: 100% !important;}
+	td[class="img"] img {max-width: 100px; border: 0 !important;}	
+	td.img img.full {max-width: 100%;}
+	td[class="content"] {font-size: 16px !important; line-height: 24px !important;}
+	td[class="split"] img {max-width: 100% !important;}	
+	td[class=m-hide], 
+	div[class=m-hide], 
+	img[class=m-hide] {display: none;}
 }
 </style>
 </head>
 <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="#3e3e3e">
-	<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" bgcolor="#3e3e3e">
+	<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" bgcolor="#3e3e3e" style="width: 100% !important;">
 	<tbody>
 		<tr>
 			<td style="width: 100%;" valign="top">
@@ -44,23 +48,27 @@ a:hover {color: #45c9ea !important; text-decoration: underline !important;}
 						      <tr>
 						        <td>
 						        	<!-- BEGIN HEADER -->
-						        	<table width="100%" border="0" cellspacing="0" cellpadding="0">						        	
+						        	<table width="100%" border="0" cellspacing="0" cellpadding="0">	
 						        		<tr>
-						        			<td valign="bottom"><div data-signal-editable="company_name" data-signal-toolbar="type"><span style="font-family: Tahoma, Helvetica, Arial, sans-serif; font-size: 24px; font-weight: normal; margin: 0; padding: 0; color: #e99400;">Latest News Title</span></div></td>
-						        	
-						        			<td valign="bottom" style="text-align: right;"><div data-signal-editable="date" data-signal-toolbar="type"><span style="font-family: Tahoma, Helvetica, Arial, sans-serif; font-size: 10px; text-transform: uppercase; margin: 0; padding: 0; color: #b5b5b5;">Jan. 30th, 2012</span></div></td>
+						        			<td><div data-signal-editable="date" data-signal-toolbar="type"><span style="font-family: Tahoma, Helvetica, Arial, sans-serif; font-size: 10px; text-transform: uppercase; margin: 0; padding: 0; color: #b5b5b5;">Jan. 30th, 2012</span></div></td>
+						        		</tr>	
+						        		<tr>
+						        			<td height="5"></td>
+						        		</tr>				        	
+						        		<tr>
+						        			<td valign="bottom"><div data-signal-editable="company_name" data-signal-toolbar="type"><span style="font-family: Tahoma, Helvetica, Arial, sans-serif; font-size: 24px; font-weight: normal; margin: 0; padding: 0; color: #e99400;">Latest News Title</span></div></td>		        
 						        		</tr>
 						        	</table>
 						        	<!-- END HEADER -->
 						        	
 						        	<!-- BEGIN HORZ RULE -->
-						        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
-						        		<tr><td colspan="2" height="30"></td></tr>
+						        	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="width: 100% !important;">
+						        		<tr><td colspan="2" height="10"></td></tr>
 						        		<tr>
-						        			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" style="border-bottom: 1px solid #e99400;"><tr><td></td></tr></table></td>
-						        			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" style="border-bottom: 1px solid #e1e1e1;"><tr><td></td></tr></table></td>
+						        			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" height="1" style="border-bottom: 1px solid #e99400;width: 100%!important;"><tr><td>&nbsp;</td></tr></table></td>
+						        			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" height="1" style="border-bottom: 1px solid #e1e1e1;width: 100%!important;"><tr><td>&nbsp;</td></tr></table></td>
 						        		</tr>
-						        		<tr><td colspan="2" height="30"></td></tr>
+						        		<tr><td colspan="2" height="10"></td></tr>
 						        	</table>
 						        	<!-- END HORZ RULE -->
 						        	
@@ -79,7 +87,7 @@ a:hover {color: #45c9ea !important; text-decoration: underline !important;}
 					    		<td height="10"></td>
 					    	</tr>
 							<tr>
-								<td><img src="resources/logo.png" width="130" height="40" /></td>
+								<td><img src="resources/logo.png" width="130" height="40" data-signal-editable="logo" /></td>
 							</tr>
 							<tr>
 								<td>
@@ -91,10 +99,10 @@ a:hover {color: #45c9ea !important; text-decoration: underline !important;}
 										<img src="resources/ico-google.png" width="28" height="28" alt="Google+" title="Google+" />				
 									</div>
 
-									<p style="font-family: Tahoma, Helvetica, Arial, sans-serif; font-size: 10px; line-height: 16px; font-weight: normal; margin: 0; padding: 0; color: #ffffff; margin-bottom: 20px;">Account Name<br />
-									1234 West Ohio Street<br />
-									Chicago, IL<br />
-									78937</p>
+									<p style="font-family: Tahoma, Helvetica, Arial, sans-serif; font-size: 10px; line-height: 16px; font-weight: normal; margin: 0; padding: 0; color: #ffffff; margin-bottom: 20px;">
+									{{account.name}}<br/>
+									{{account.street_address1}}<br/>
+									{{account.city}}, {{account.state_code}} {{account.postal_code}}</p>
 									
 									<p style="font-family: Tahoma, Helvetica, Arial, sans-serif; font-size: 10px; line-height: 16px; font-weight: normal; margin: 0; padding: 0; color: #e99400;">
 									<a style="color:#ea9500; text-decoration: underline;" href="{{view_in_browser_link}}">View email in browser</a><br />
