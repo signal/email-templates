@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width = 320, initial-scale = 1.0">
+
+<title>Basic White email template - full column</title>
+<style type="text/css">
+  
+body {background-color: #ffffff; padding: 0; margin: 0;} 
+a {color: #1f5eb2 !important; text-decoration: none !important;} 
+a:hover {color: #1f5eb2 !important; text-decoration: underline !important;}
+
+@media only screen and (max-device-width: 480px) { 
+body {-webkit-text-size-adjust: none; margin: 0 20px;}
+table, td[class="content"], 
+td[class="img"] {width: auto !important;}
+table.full {width: 100% !important;}
+td[class="img"] img {max-width: 100px; border: 0 !important;}
+td.img img.full {max-width: 100%;}
+td[class="content"] {font-size: 16px !important; line-height: 24px !important;}
+td[class="split"] {width:100% important;}
+td[class="split"] img {max-width: 100% !important;}
+td[class=m-hide], 
+div[class=m-hide], 
+img[class=m-hide] {display: none;}
+table td {border-collapse: collapse;}
+}
+
+</style>
+</head>
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="#ffffff">
+	<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">	
+	<tbody>
+		<tr>
+			<td style="width: 100%;" style="background-color: #ffffff;" valign="top">
+			
+				<!-- BEGIN HEADER -->
+				<table cellpadding="0" cellspacing="0" border="0" align="center" width="600" class="full">
+					<!-- BEGIN PADDING -->
+					<tr><td height="10" width="100%">&nbsp;</td></tr>
+					<!-- END PADDING -->
+					<tr>
+						<td valign="top">
+							<p class="view-email" style="font-size: 11px;font-family: arial, helvetica, sans-serif; margin: 5px 0 0 0; padding: 0;"><a style="color:#1f5eb2; text-decoration: underline;" href="{{view_in_browser_link}}">View email in browser</a></p>
+						</td>
+					</tr>
+					<!-- BEGIN PADDING -->
+					<tr><td height="10" width="100%">&nbsp;</td></tr>
+					<!-- END PADDING -->
+				</table>
+				<!-- END HEADER -->
+				
+				<!-- BEGIN TITLE -->
+				<table cellpadding="0" cellspacing="0" border="0" align="center" width="600" class="full">					
+					<tr>
+						<td><img src="http://app.signalhq.com/web_themes/web_form_themes/4033/683/resources/logo.png" style="padding: 4px;" data-signal-editable="logo-img" data-signal-description="Max-width 600px"></td>
+					</tr>
+					<!-- BEGIN PADDING -->
+					<tr><td height="10" width="100%">&nbsp;</td></tr>
+					<!-- END PADDING -->
+				</table>
+				<!-- END TITLE -->
+				
+        		<!-- BEGIN CONTENT -->
+				<table cellpadding="0" cellspacing="0" border="0" align="center" width="600" class="full">
+					<tr>
+						<td class="maincol" valign="top" width="100%">
+	          				<!-- BEGIN MAINCOL -->
+							<div data-signal-editable="Maincol" data-signal-content-type="layout"></div>
+							<!-- END MAINCOL -->		      							
+						</td>
+					</tr>
+	      		</table>
+				<!-- END CONTENT -->
+				
+				<!-- BEGIN FOOTER -->
+				<table cellpadding="0" cellspacing="0" border="0" align="center" width="600" class="full">				  
+				  <tr>
+				    <td width="100%">
+				        <p style="font-family: arial,helvetica,sans-serif;color: #000; font-size: 11px; line-height: 17px;">
+				        This email was sent by:<br/>
+						{{account.name}}<br/>
+						{{account.street_address1}}<br/>
+						{{account.city}}, {{account.state_code}} {{account.postal_code}}
+						</p>
+						<p class="preference_links" style="font-family: arial,helvetica,sans-serif;font-size: 11px;line-height: 17px;">
+						<a style="color:#1f5eb2; font-family: arial, helvetica, sans-serif; text-decoration: underline;" href="{{update_preferences_link}}">Update Preferences</a><br />
+						<a style="color:#1f5eb2; font-family: arial, helvetica, sans-serif; text-decoration: underline;" href="{{unsubscribe_link}}">Unsubscribe</a>
+						</p>
+					</td>	
+				  </tr>
+				</table>
+				<!-- END FOOTER -->
+			</td>
+		</tr>
+	</tbody>
+	</table>
+</body>
+</html>
