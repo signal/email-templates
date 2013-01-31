@@ -20,15 +20,14 @@ td.footer a {color: #ffffff !important;}
 
 @media only screen and (max-device-width: 480px) { 
 	body {-webkit-text-size-adjust: none; margin: 0 20px;}	
-	table[class="container"] {width:320px !important; }		
 	table[class="maincontent"], 
 	table[class="sidecontent"], 
 	td[class="split"] {width: 100% !important;}	
-	td[class="content"], td[class="img"] {width: auto !important;}    
+	td[class="img"] {width: auto !important;}    
 	table[class="full"] {width: 100% !important;}
 	td[class="img"] img {max-width: 100px; border: 0 !important;}	
 	td[class="img"] img[class="full"] {max-width: 100%;}
-	td[class="content"] {font-size: 16px !important; line-height: 24px !important;}
+	table[class="content"] span {font-size: 16px !important; line-height: 24px !important;}
 	td[class="split"] img {max-width: 100% !important;}	
 	td[class="m-hide"], div[class="m-hide"], img[class="m-hide"] {display: none;}
 }
@@ -41,7 +40,7 @@ td.footer a {color: #ffffff !important;}
 	 	<tr>
 	 		<td style="background-color: #894468; text-align: center; padding: 5px 0;">
 	 		<div data-signal-editable="company_name" data-signal-toolbar="type">
-	 		<span style="font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #8c8b8b; margin: 0; padding: 0;"><a style="color:#ffffff !important; text-decoration: underline;" href="{{view_in_browser_link}}" id="email-link">View email in browser</a>
+	 		<span style="font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #ffffff; margin: 0; padding: 0;"><a style="color:#ffffff !important; text-decoration: underline;" href="{{view_in_browser_link}}" id="email-link">View email in browser</a>
 	 		</span></div>
 	 		</td>
 	 	</tr>
@@ -49,11 +48,11 @@ td.footer a {color: #ffffff !important;}
 			<td style="width: 100%;background-image: url(https://app.signalhq.com/web_themes/web_form_themes/4033/715/resources/honeycomb.gif); background-repeat: repeat;" valign="top">
 			
 				<!-- BEGIN CONTAINER TABLE -->
-				<table cellpadding="0" cellspacing="0" border="0" align="center" width="600" class="container">
+				<table cellpadding="0" cellspacing="0" border="0" align="center" width="600" class="full">
 					<tr>
 						<td>
 						<!-- BEGIN LOGO -->	
-						<table width="400" border="0" cellspacing="0" cellpadding="0" align="left" class="maincontent">
+						<table class="maincontent" width="400" border="0" cellspacing="0" cellpadding="0" align="left">
 							<tr>
 								<td height="30"></td>
 							</tr>
@@ -69,7 +68,7 @@ td.footer a {color: #ffffff !important;}
 						<!-- END LOGO -->
 						
 						<!-- BEGIN SOCIAL -->	
-						<table width="200" border="0" cellspacing="0" cellpadding="0" class="sidecontent">
+						<table class="sidecontent" width="190" border="0" cellspacing="0" cellpadding="0">
 							<tr>
 								<td height="30"></td>
 							</tr>
@@ -94,7 +93,7 @@ td.footer a {color: #ffffff !important;}
 					<tr>
 						<td>
 						<!-- BEGIN MAIN CONTENT -->
-						<table width="400" border="0" cellspacing="0" cellpadding="0" align="left" bgcolor="#ffffff" class="maincontent">
+						<table class="maincontent" width="400" border="0" cellspacing="0" cellpadding="0" align="left" bgcolor="#ffffff">
 							  <!-- BEGIN PADDING--><tr><td height="25">&nbsp;</td></tr><!-- END PADDING -->
 						      <tr>
 						        <td>						        							        	
@@ -126,18 +125,24 @@ td.footer a {color: #ffffff !important;}
 						<!-- END MAIN CONTENT --> 
 						   
 					    <!-- BEGIN SIDE CONTENT -->
-					    <table width="200" border="0" cellspacing="0" cellpadding="25" class="sidecontent" style="background-color: #4ca4bd;">
+					    <table class="sidecontent" width="190" border="0" cellspacing="0" cellpadding="0" style="background-color: #4ca4bd;">
 							<tr>
 								<td>
-									<table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<table width="100%" border="0" cellspacing="0" cellpadding="20">
 										<tr>
-											<td>
-												<div data-signal-editable="date" data-signal-toolbar="type"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; text-transform: uppercase; margin: 0; padding: 0; color: #ffffff;">Jan. 30th, 2012</span></div>
-											</td>
+										<td>
+										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+											<tr>
+												<td>
+													<div data-signal-editable="date" data-signal-toolbar="type"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; text-transform: uppercase; margin: 0; padding: 0; color: #ffffff !important;">Jan. 30th, 2012</span></div>
+												</td>
+											</tr>
+											<!-- BEGIN PADDING--><tr><td height="5">&nbsp;</td></tr><!-- END PADDING -->
+										</table>
+										<div data-signal-editable="Sidecol" data-signal-content-type="layout"></div>
+										</td>
 										</tr>
-										<!-- BEGIN PADDING--><tr><td height="5">&nbsp;</td></tr><!-- END PADDING -->
 									</table>
-									<div data-signal-editable="Sidecol" data-signal-content-type="layout"></div>
 								</td>
 							</tr>
 					    </table>
