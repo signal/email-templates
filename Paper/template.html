@@ -7,9 +7,8 @@
 <title>Paper email template - full column</title>
 <style type="text/css">
  body {
-   background-image: url("http://app.signalhq.com/web_themes/web_form_themes/1/826/resources/paper-dark.jpg");
+   background-image: url("http://app.signalhq.com/web_themes/web_form_themes/4033/845/resources/paper-dark.jpg");
    background-repeat: repeat-y no-repeat;
-   background-color: #a08865;
    padding: 0;
    margin: 0;
    } 
@@ -20,7 +19,7 @@ a#email-link {color: #534832 !important;}
 
 .footer a, .footer a:hover {color: #ffffff !important; }
 
-table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;} //remove undesirable table padding in Outlook//
+table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;} /*remove undesirable table padding in Outlook*/
 
 @media only screen and (max-device-width: 480px) { 
 
@@ -31,7 +30,7 @@ table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;} //
 	table[class="full"] {width: 100% !important;}
 	td[class="img"] img {max-width: 100px;border: 0 !important;}
 	td[class="img"] img[class="full"] {max-width: 100%;}
-	table[class="content"] span {font-size: 16px !important; line-height: 24px !important;}
+	td[class="content"] {font-size: 16px !important; line-height: 20px !important;}
 	td[class="split"] {width:100% important;}
 	td[class="split"] img {max-width: 100% !important;}
 	td[class="m-hide"], 
@@ -41,140 +40,166 @@ table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;} //
 
 </style>
 </head>
-<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="#a08865" yahoo="mediaquerybugfix">
-	<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" style="width: 100%;" background="http://app.signalhq.com/web_themes/web_form_themes/1/826/resources/paper-dark.jpg">
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" yahoo="mediaquerybugfix">
+
+<div style="background-color:#a08865;">
+  <!--[if gte mso 9]>
+  <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+    <v:fill type="tile" src="http://app.signalhq.com/web_themes/web_form_themes/4033/845/resources/paper-dark.jpg" color="#a08865"/>
+  </v:background>
+  <![endif]-->
+  
+	<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%" align="center" style="width: 100%;">
 	<tbody>
 		<tr>
-			<td style="width: 100%;background-image: url(http://app.signalhq.com/web_themes/web_form_themes/1/826/resources/paper-dark.jpg); background-repeat: repeat;" valign="top">		
-				
+			<td valign="top" align="left" background="http://app.signalhq.com/web_themes/web_form_themes/4033/845/resources/paper-dark.jpg" style="width: 100%;">
 				<!-- BEGIN BROWN BOX -->
-				<table border="0" cellspacing="0" cellpadding="0" width="600" align="center" class="full" style="width:600px;" background="http://app.signalhq.com/web_themes/web_form_themes/1/826/resources/paper-light.jpg">
+				<table border="0" cellspacing="0" cellpadding="0" width="600" align="center" class="full" style="width: 600px;">
 					<tr>
-						<td style="background-image: url(http://app.signalhq.com/web_themes/web_form_themes/1/826/resources/paper-light.jpg); background-repeat: repeat;">
-						
-							<!-- BEGIN HEADER -->
-							<table cellpadding="0" cellspacing="0" border="0" align="center" width="600" style="width: 600px;">
-								<!-- BEGIN PADDING -->
-								<tr><td height="30" colspan="4" width="100%">&nbsp;</td></tr>
-								<!-- END PADDING -->
-								<tr>
-									<td width="20">&nbsp;</td>
-									<td width="280" valign="bottom" style="text-align:left;">
-										<div data-signal-editable="news_title" data-signal-toolbar="type"><span style="font-family: Arial, helvetica, sans-serif; font-size: 26px; font-weight: bold; color: #937b55; margin: 0; padding: 0;">Latest News Title</span></div>
-									</td>
-									<td width="280" valign="bottom" style="text-align:right;">
-										<img src="http://app.signalhq.com/web_themes/web_form_themes/1/826/resources/logo.png" height="40" data-signal-editable="logo" />
-									</td>
-									<td width="20">&nbsp;</td>
-								</tr>
-								<!-- BEGIN PADDING -->								
-								<tr>
-									<td height="1" width="20"></td>
-									<td height="1" colspan="2">
-										<table cellpadding="0" cellspacing="0" border="0" width="100%">
-											<tr>
-											<td>
-												<table cellpadding="0" cellspacing="0" border="0" width="100%" height="1" style="border-bottom: 5px solid #b09a77;width: 100%!important;"><tr><td>&nbsp;</td></tr></table></td>											
-											</tr>
-										</table>	
-										
-									</td>
-									<td height="1" width="20"></td>
-								</tr>
-								<!-- END PADDING -->
-								<tr>
-									<td width="20">&nbsp;</td>
-									<td width="280" height="25" valign="bottom" style="text-align:left;">										
-										<div data-signal-editable="date" data-signal-toolbar="type"><span style="color: #937b55; font-size: 12px; font-family: Arial, helvetica, sans-serif; padding: 0;">JAN 30th, 2012</span></div>
-									</td>
-									<td width="280" valign="bottom" style="text-align:right;">
-										<span style="font-family: Arial, helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #937b55; margin: 0; padding: 0;">
-										<a style="color:#937b55; text-decoration: underline;" href="{{view_in_browser_link}}" id="email-link">View email in browser</a>
-										</span>							
-									</td>
-									<td width="20">&nbsp;</td>
-								</tr>
-								<!-- BEGIN PADDING -->
-								<tr><td height="15" colspan="4" width="100%">&nbsp;</td></tr>
-								<!-- END PADDING -->
-							</table>
-							<!-- END HEADER -->							
+						<td background="http://app.signalhq.com/web_themes/web_form_themes/4033/845/resources/paper-light.jpg" bgcolor="#cdbe9d" valign="top">
+					      	
+					      	<!--[if gte mso 9]>
+					      	<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 600px;">
+					        <v:fill type="tile" src="http://app.signalhq.com/web_themes/web_form_themes/4033/845/resources/paper-light.jpg" color="#cdbe9d" />
+					        <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+					     	<![endif]-->
+					     							
+								<!-- BEGIN HEADER -->
+								<table cellpadding="0" cellspacing="0" border="0" align="center" width="600" style="width: 600px;">
+									<!-- BEGIN PADDING -->
+									<tr><td height="30" colspan="4" width="100%">&nbsp;</td></tr>
+									<!-- END PADDING -->
+									<tr>
+										<td width="20">&nbsp;</td>
+										<td width="280" valign="bottom" style="text-align:left;">
+											<div data-signal-editable="news_title" data-signal-toolbar="type"><span style="font-family: Arial, helvetica, sans-serif; font-size: 26px; font-weight: bold; color: #937b55; margin: 0; padding: 0;">Latest News Title</span></div>
+										</td>
+										<td width="280" valign="bottom" style="text-align:right;">
+											<img src="http://app.signalhq.com/web_themes/web_form_themes/4033/845/resources/logo.png" height="40" data-signal-editable="logo" />
+										</td>
+										<td width="20">&nbsp;</td>
+									</tr>
+									<!-- BEGIN PADDING -->								
+									<tr>
+										<td colspan="4">
+											<table width="100%" border="0" cellspacing="0" cellpadding="0" class="full">
+												<tr>
+													<td height="1" width="20"></td>
+													<td height="1" width="560">													
+														<table cellpadding="0" cellspacing="0" border="0" width="100%" height="1" style="border-bottom: 5px solid #b09a77;width: 100%!important;"><tr><td>&nbsp;</td></tr></table>													
+													</td>
+													<td height="1" width="20"></td>
+												</tr>
+											</table>	
+										</td>
+									</tr>
+									<!-- END PADDING -->
+									<tr>
+										<td width="20">&nbsp;</td>
+										<td width="280" height="25" valign="bottom" style="text-align:left;">										
+											<div data-signal-editable="date" data-signal-toolbar="type"><span style="color: #937b55; font-size: 12px; font-family: Arial, helvetica, sans-serif; padding: 0;">JAN 30th, 2012</span></div>
+										</td>
+										<td width="280" valign="bottom" style="text-align:right;">
+											<span style="font-family: Arial, helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #937b55; margin: 0; padding: 0;">
+											<a style="color:#937b55; text-decoration: underline;" href="{{view_in_browser_link}}" id="email-link">View email in browser</a>
+											</span>							
+										</td>
+										<td width="20">&nbsp;</td>
+									</tr>
+									<!-- BEGIN PADDING -->
+									<tr><td height="15" colspan="4" width="100%">&nbsp;</td></tr>
+									<!-- END PADDING -->
+								</table>
+								<!-- END HEADER -->							
+								
+				        		<!-- BEGIN CONTENT -->
+								<table cellpadding="0" cellspacing="0" border="0" align="center" width="600" style="width: 600px;">
+									<tr>
+										<td class="maincol" valign="top" width="100%">
+														
+				              				<!-- BEGIN MAINCOL -->
+											<div data-signal-editable="Maincol" data-signal-content-type="layout"></div>
+				  							<!-- END MAINCOL -->	
+				  							
+				  							<!-- BEGIN SEPARATOR -->			  							
+				  							<table width="100%" border="0" cellspacing="0" cellpadding="0" class="full">
+				  								<tr>
+				  									<td width="600">
+				  									<table cellpadding="0" cellspacing="0" border="0" width="100%" height="1" style="border-top: 1px solid #b09a77;width: 100%!important;">
+				  										<tr>
+				  											<td height="10">&nbsp;</td>
+				  										</tr>
+				  									</table>
+				  									</td>
+				  								</tr>
+				  							</table>	      							
+				  							<!-- END SEPARATOR -->			  							
+				  							
+				  							<!-- BEGIN FOOTER -->
+				  							<table width="600" cellpadding="0" cellspacing="0" border="0" style="width: 600px;" class="footer">
+				  								
+				  								<tr>
+				  									<td width="20">&nbsp;</td>
+				  									<td>											
+				  									    <p style="font-family: Verdana, Arial, Helvetica, sans-serif;color: #534832; font-size: 11px; line-height: 17px;">
+				  										{{account.name}}<br/>
+				  										{{account.street_address1}}<br/>
+				  										{{account.city}}, {{account.state_code}} {{account.postal_code}}
+				  										</p>
+				  									</td>
+				  									<td valign="top" style="text-align: right;">	
+				  										<p class="preference_links" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;line-height: 17px;color: #534832;">
+				  										<a style="color:#534832 !important; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: underline;" href="{{update_preferences_link}}">Update Preferences</a><br />
+				  										<a style="color:#534832 !important; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: underline;" href="{{unsubscribe_link}}">Unsubscribe</a>
+				  										</p>
+				  									</td>
+				  									<td width="20">&nbsp;</td>
+				  								</tr>
+				  								<tr>
+				  									<td height="10" colspan="4">&nbsp;</td>
+				  								</tr>
+				  								<tr>
+				  									<td colspan="4" style="text-align:center;">
+				  										<div data-signal-editable="social_accounts" data-signal-toolbar="type" style="font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 11px; line-height: 19px; color: #534832;vertical-align: middle;text-align:center;">
+				  										<img src="http://app.signalhq.com/web_themes/web_form_themes/4033/845/resources/ico-fb.png" width="33" height="33" alt="Facebook" title="Facebook" style="vertical-align:middle;" />&nbsp;
+				  										<img src="http://app.signalhq.com/web_themes/web_form_themes/4033/845/resources/ico-twitter.png" width="33" height="33" alt="Twitter" title="Twitter" style="vertical-align:middle;" />&nbsp;
+				  										<img src="http://app.signalhq.com/web_themes/web_form_themes/4033/845/resources/ico-youtube.png" width="33" height="33" alt="YouTube" title="YouTube" style="vertical-align:middle;" />&nbsp;
+				  										<img src="http://app.signalhq.com/web_themes/web_form_themes/4033/845/resources/ico-pinterest.png" width="33" height="33" alt="Pinterest" title="Pinterest" style="vertical-align:middle;" />&nbsp;
+				  										<img src="http://app.signalhq.com/web_themes/web_form_themes/4033/845/resources/ico-linkedin.png" width="33" height="33" alt="LinkedIn" title="LinkedIn" style="vertical-align:middle;" />&nbsp;	
+				  										<img src="http://app.signalhq.com/web_themes/web_form_themes/4033/845/resources/ico-google.png" width="33" height="33" alt="Google+" title="Google+" style="vertical-align:middle;" />
+				  										</div>
+				  									</td>
+				  								</tr>										
+				  								<tr>
+				  									<td height="5">&nbsp;</td>
+				  								</tr>
+				  								
+				  								
+				  								<tr>
+				  									<td height="10">&nbsp;</td>
+				  								</tr>
+				  							</table>
+				  							<!-- END FOOTER -->
+											
+										</td>
+									</tr>
+					      		</table>
+								<!-- END CONTENT -->
 							
-			        		<!-- BEGIN CONTENT -->
-							<table cellpadding="0" cellspacing="0" border="0" align="center" width="600" style="width: 600px;">
-								<tr>
-									<td class="maincol" valign="top" width="100%">
-													
-			              				<!-- BEGIN MAINCOL -->
-										<div data-signal-editable="Maincol" data-signal-content-type="layout"></div>
-			  							<!-- END MAINCOL -->	
-			  							
-			  							<!-- BEGIN SEPARATOR -->			  							
-			  							<table width="100%" border="0" cellspacing="0" cellpadding="0" class="full">
-			  								<tr>
-			  									<td width="100%"><table cellpadding="0" cellspacing="0" border="0" width="100%" height="1" style="border-top: 1px solid #b09a77;width: 100%!important;"><tr><td height="10">&nbsp;</td></tr></table></td>
-			  								</tr>
-			  							</table>	      							
-			  							<!-- END SEPARATOR -->			  							
-			  							
-			  							<!-- BEGIN FOOTER -->
-			  							<table width="600" cellpadding="0" cellspacing="0" border="0" style="width: 600px;" class="footer">
-			  								
-			  								<tr>
-			  									<td width="20">&nbsp;</td>
-			  									<td>											
-			  									    <p style="font-family: Verdana, Arial, Helvetica, sans-serif;color: #534832; font-size: 11px; line-height: 17px;">
-			  										{{account.name}}<br/>
-			  										{{account.street_address1}}<br/>
-			  										{{account.city}}, {{account.state_code}} {{account.postal_code}}
-			  										</p>
-			  									</td>
-			  									<td valign="top" style="text-align: right;">	
-			  										<p class="preference_links" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;line-height: 17px;color: #534832;">
-			  										<a style="color:#534832 !important; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: underline;" href="{{update_preferences_link}}">Update Preferences</a><br />
-			  										<a style="color:#534832 !important; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: underline;" href="{{unsubscribe_link}}">Unsubscribe</a>
-			  										</p>
-			  									</td>
-			  									<td width="20">&nbsp;</td>
-			  								</tr>
-			  								<tr>
-			  									<td height="10" colspan="4">&nbsp;</td>
-			  								</tr>
-			  								<tr>
-			  									<td colspan="4">
-			  										<div data-signal-editable="social_accounts" data-signal-toolbar="type" style="font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 11px; line-height: 19px; color: #534832;vertical-align: middle;text-align:center;">
-			  										<span style="font-family: Verdana, Arial, Helvetica font-weight: normal; font-size: 11px; line-height: 19px; color: #534832;vertical-align: middle;">
-			  										<img src="http://app.signalhq.com/web_themes/web_form_themes/1/826/resources/ico-fb.png" width="33" height="33" alt="Facebook" title="Facebook" style="vertical-align:middle;" />&nbsp;
-			  										<img src="http://app.signalhq.com/web_themes/web_form_themes/1/826/resources/ico-twitter.png" width="33" height="33" alt="Twitter" title="Twitter" style="vertical-align:middle;" />&nbsp;
-			  										<img src="http://app.signalhq.com/web_themes/web_form_themes/1/826/resources/ico-youtube.png" width="33" height="33" alt="YouTube" title="YouTube" style="vertical-align:middle;" />&nbsp;
-			  										<img src="http://app.signalhq.com/web_themes/web_form_themes/1/826/resources/ico-pinterest.png" width="33" height="33" alt="Pinterest" title="Pinterest" style="vertical-align:middle;" />&nbsp;
-			  										<img src="http://app.signalhq.com/web_themes/web_form_themes/1/826/resources/ico-linkedin.png" width="33" height="33" alt="LinkedIn" title="LinkedIn" style="vertical-align:middle;" />&nbsp;													
-			  										<img src="http://app.signalhq.com/web_themes/web_form_themes/1/826/resources/ico-google.png" width="33" height="33" alt="Google+" title="Google+" style="vertical-align:middle;" />
-			  										</div>
-			  									</td>
-			  								</tr>										
-			  								<tr>
-			  									<td height="5">&nbsp;</td>
-			  								</tr>
-			  								
-			  								
-			  								<tr>
-			  									<td height="10">&nbsp;</td>
-			  								</tr>
-			  							</table>
-			  							<!-- END FOOTER -->
-										
-									</td>
-								</tr>
-				      		</table>
-							<!-- END CONTENT -->
-							</td>
-						</tr>
-						</table>
-				<!-- END WHITE BOX -->
+							<!--[if gte mso 9]>
+						    </v:textbox>
+						    </v:rect>
+						    <![endif]-->
+						    
+						</td>
+					</tr>
+				</table>
+				<!-- END BROWN BOX -->
 			</td>
 		</tr>
 	</tbody>
 	</table>
+	
+</div>	
 </body>
 </html>
