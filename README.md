@@ -1,4 +1,4 @@
-Signal Email Templates
+Signal email templates
 ========================
 
 Signal includes email templates ready for use. This repo has all the source files for those templates.
