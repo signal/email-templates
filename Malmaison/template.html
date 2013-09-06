@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width = 320, initial-scale = 1.0">
+
+<title>Malmaison email template - full column</title>
+<style type="text/css">
+  
+ body {
+   background-image: url("resources/back.png");
+   background-repeat: repeat-y no-repeat;
+   background-color: #eaebec;
+   padding: 0;
+   margin: 0;
+   } 
+  
+a {color: #453b23 !important; text-decoration: underline; !important;}
+a:hover {color: #453b23 !important; text-decoration: none !important;}
+
+@media only screen and (max-device-width: 480px) { 
+	body {-webkit-text-size-adjust: none; margin: 0 20px;}
+	table, td[class="content"], 
+	td[class="img"], body[yahoo] table, {width: auto !important;}
+	table.full {width: 100% !important;}
+	td[class="img"] img {max-width: 100px; border: 0 !important;}
+	td.img img.full {max-width: 100%;}
+	td[class="content"] {font-size: 16px !important; line-height: 24px !important;}
+	td[class="split"] {width:100% important;}
+	td[class="split"] img {max-width: 100% !important;}
+	td[class="m-hide"], 
+	div[class="m-hide"], 
+	img[class="m-hide"] {display: none;}
+	table td {border-collapse: collapse;}
+}
+</style>
+</head>
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="#eaebec" yahoo="mediaquerybugfix">
+	<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" background="resources/back.png">
+	<tbody>
+		<tr>
+			<td style="background-color: #524d41; text-align: center; padding: 5px 0;border-top: 5px solid #595448;">
+			<div data-signal-editable="company_name" data-signal-toolbar="type">
+			<span style="font-family: Didot, 'Didot LT STD', 'Hoefler Text', 'Adobe Garamond Pro', 'Adobe Garamond', Palatino, 'Times New Roman', serif; font-size: 11px; font-weight: normal; color: #f1f1eb; margin: 0; padding: 0;">TROUBLE VIEWING THIS EMAIL? <a style="color:#f1f1eb !important; text-decoration: underline !important;" href="{{view_in_browser_link}}" id="email-link">VIEW IN WEB BROWSER</a>
+			</span></div>
+			</td>
+		</tr>
+	
+		<tr>
+			<td style="width: 100%;" style="background-color: #eaebec; background-image: url(resources/back.png); background-repeat: repeat;" valign="top">
+			
+				<!-- BEGIN HEADER -->
+				<table cellpadding="0" cellspacing="0" border="0" align="center" width="600" class="full">
+					<!-- BEGIN PADDING -->
+					<tr><td height="20" colspan="2" width="100%">&nbsp;</td></tr>
+					<!-- END PADDING -->
+					<tr>
+						<td valign="middle" width="100%" align="center">
+							<img src="resources/logo.png" height="115" data-signal-editable="logo" />
+						</td>
+					</tr>
+				</table>
+				<!-- END HEADER -->
+				
+        		<!-- BEGIN CONTENT -->
+				<table cellpadding="0" cellspacing="0" border="0" align="center" width="600" class="full">
+<!-- BEGIN PADDING -->
+					<tr><td height="10" width="100%">&nbsp;</td></tr>
+					<!-- END PADDING -->
+					<tr>
+						<td class="maincol" valign="top" width="100%">
+										
+							
+		                  				<!-- BEGIN MAINCOL -->
+										<div data-signal-editable="Maincol" data-signal-content-type="layout"></div>
+		      							<!-- END MAINCOL -->		      									      									      							
+							
+						</td>
+					</tr>
+	      		</table>
+				<!-- END CONTENT -->
+				
+				<!-- BEGIN FOOTER -->
+				<table width="600" style="margin: 0 auto;" border="0" cellspacing="0" cellpadding="0" align="center">
+				  <!-- BEGIN PADDING -->
+				  <tr><td height="10" colspan="2" width="600"></td></tr>
+				  <!-- END PADDING -->
+				  <tr><td colspan="2" width="600"><img src="resources/ornament4.png" width="600" height="26" /></td></tr>
+				  <!-- BEGIN PADDING -->
+				  <tr><td height="5" colspan="2" width="600"></td></tr>
+				  <!-- END PADDING -->
+				  <tr>
+				    <td width="320" style="text-align: left;vertical-align: middle;" valign="middle">
+				        <p><span style="font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;color: #453b23; font-size: 13px; line-height: 17px;">
+				        THIS EMAIL WAS SENT BY:</span><br />
+				        <span style="font-family: Didot, 'Didot LT STD', 'Hoefler Text', 'Adobe Garamond Pro', 'Adobe Garamond', Palatino, 'Times New Roman', serif;color: #453b23; font-size: 14px; line-height: 17px;">
+						<b>{{account.name}}</b><br/>
+						{{account.street_address1}}<br/>
+						{{account.city}}, {{account.state_code}} {{account.postal_code}}					
+						</span>
+						</p>
+						
+						<p class="preference_links" style="font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;font-size: 13px;line-height: 17px;">
+						<a style="color:#453b23 !important; font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; text-decoration: underline !important;font-size: 13px;" href="{{update_preferences_link}}">UPDATE PREFERENCES</a> | 
+						<a style="color:#453b23 !important; font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; text-decoration: underline !important;font-size: 13px;" href="{{unsubscribe_link}}">UNSUBSCRIBE</a>
+						</p>
+					</td>	
+					<td width="280" style="text-align: left;vertical-align: middle;" valign="middle">		  
+				       <div data-signal-editable="social_accounts" data-signal-toolbar="type" style="font-family: Didot, 'Didot LT STD', 'Hoefler Text', 'Adobe Garamond Pro', 'Adobe Garamond', Palatino, 'Times New Roman', serif; font-weight: bold; font-size: 13px; line-height: 19px; color: #000;vertical-align: middle;">				       
+				       <img src="resources/ico-fb.png" width="44" height="44" alt="Facebook" title="Facebook" style="vertical-align:middle;" />&nbsp;
+				       <img src="resources/ico-twitter.png" width="44" height="44" alt="Twitter" title="Twitter" style="vertical-align:middle;" />&nbsp;
+				       <img src="resources/ico-youtube.png" width="44" height="44" alt="YouTube" title="YouTube" style="vertical-align:middle;" />&nbsp;
+				       <img src="resources/ico-google.png" width="44" height="44" alt="Google+" title="Google+" style="vertical-align:middle;" />&nbsp;
+				       <img src="resources/ico-pinterest.png" width="44" height="44" alt="Pinterest" title="Pinterest" style="vertical-align:middle;" />&nbsp;
+				       <img src="resources/ico-linkedin.png" width="44" height="44" alt="LinkedIn" title="LinkedIn" style="vertical-align:middle;" />
+				       </div>
+				    </td>
+				  </tr>
+				  <!-- BEGIN PADDING -->
+				  <tr><td height="10" colspan="2" width="600"></td></tr>
+				  <!-- END PADDING -->
+				  <tr><td colspan="2" width="600" align="center"><img src="resources/ornament5.png" width="217" height="78" /></td></tr>
+				  <!-- BEGIN PADDING -->
+				  <tr><td height="10" colspan="2" width="600"></td></tr>
+				  <!-- END PADDING -->
+				</table>
+				<!-- END FOOTER -->
+			</td>
+		</tr>
+	</tbody>
+	</table>
+</body>
+</html>
