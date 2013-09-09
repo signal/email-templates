@@ -134,7 +134,7 @@ em {
 	margin: 0;
 	}
 	
-.hide, .skip, hr, .closed { display: none; }
+.hide, .skip, .closed { display: none; }
 
 .open { display: block; }
 
